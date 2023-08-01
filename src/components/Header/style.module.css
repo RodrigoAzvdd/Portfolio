@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Mulish:wght@500&display=swap');
-
-header {
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 4rem;
-    box-shadow: 1px 0px 10px #bdbdbd;
+    padding: 2rem 4rem;
+    border-bottom: 1px solid #f0f0f0;
+    background-color: #fff;
 }
 
 .logoDiv {
@@ -22,15 +21,14 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+    gap: 4rem;
 }
 
 .navLink {
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     text-decoration: none;
     color: #000;
-    font-family: 'Mulish', sans-serif;
     position: relative;
 }
 

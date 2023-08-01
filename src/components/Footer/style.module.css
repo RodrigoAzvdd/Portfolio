@@ -1,0 +1,58 @@
+footer {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 15rem;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedinLogo,
+.githubLogo {
+    color: #000;
+    font-size: 2rem;
+    transition: .5s;
+}
+
+.linkedinLogo:hover {
+    color: #0077B5;
+}
+
+.githubLogo:hover {
+    color: #424242;
+}
+
+.instagramLogo {
+    font-size: 2rem;
+    transition: .5s;
+    color: #000;
+}
+
+.instagramLogo:hover {
+    color:  #E4405F;
+}
+
+.socialMedias {
+    display: flex;
+    gap: 4rem;
+}
+
+.socialMediaLogo {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.heart {
+    font-size: 1rem;
+    padding: .2rem .5rem 0rem;
+}

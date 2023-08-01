@@ -3,7 +3,7 @@ import styles from "./style.module.css"
 
 export default function Header() {
     return (
-        <header>
+        <header className={styles.header}>
             <Link className={styles.logoDiv} to={'/'}>
                 <img className={styles.logo} src="src/assets/Rodrigo.png" alt="" />
             </Link>
