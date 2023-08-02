@@ -2,7 +2,8 @@ import Button from "../components/Button";
 import { Link } from "react-router-dom"
 import ImgCard from "../components/ImgCard";
 import SkillCard from "../components/SkillCard";
-
+import imgCard from '/src/imgs/profile.png';
+import arrow from '/src/imgs/chevron-double-down.svg'
 
 function Home() {
     return (
@@ -14,13 +15,13 @@ function Home() {
                     <Button text={"Projetos"} />
                 </Link>
                 <p>
-                    <img className="arrow" src="src/imgs/chevron-double-down.svg" alt="" />
+                    <img className="arrow" src={arrow} alt="" />
                 </p>
             </section>
             <section className="aboutSection">
                 <p className="aboutTitle">Sobre mim</p>
                 <div className="aboutInfo">
-                    <ImgCard url={"src/imgs/steamProfile.PNG"} alt={"cardImg"} />
+                    <ImgCard url={imgCard} alt={"cardImg"} />
                     <div className="secondContentabout">
                         <p className="nameInfo">Rodrigo Azevedo</p>
                         <ul className="InfoItems">
