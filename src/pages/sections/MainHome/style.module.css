@@ -1,4 +1,5 @@
 .firstContent {
+    padding-top: 10rem;
     background: linear-gradient(#000000, #131313);
     display: flex;
     flex-direction: column;
@@ -47,16 +48,15 @@
 
 .btn:hover {
     cursor: pointer;
-    background: linear-gradient(90deg, #8C52FF, #5500ff);
+    background: linear-gradient(135deg, #8C52FF, #5500ff);
     border-color: #8C52FF;
 }
 
 .arrow {
-    padding-top: 10rem;
+    padding-top: 20rem;
     font-size: 2rem;
     animation: arrowDown 2s infinite;
 }
-
 
 @keyframes arrowDown {
 
