@@ -7,7 +7,7 @@ import Projects from './pages/Projects'
 
 const router = createBrowserRouter([
     {
-        path: '/',
+        path: '/Portfolio/',
         element: <RootLayout />,
         children: [
             {
