@@ -4,7 +4,7 @@ function Projects() {
     return (
         <section className="projectContainer">
             <p className="message">
-                " Projetos "
+                &quot; Projetos &quot;
             </p>
         </section>
     );
