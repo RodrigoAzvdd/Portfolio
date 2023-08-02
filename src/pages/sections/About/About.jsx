@@ -10,7 +10,7 @@ function About() {
             <div className={styles.aboutInfo}>
                 <ImgCard url={imgCard} alt={"cardImg"} />
                 <div className={styles.secondContentabout}>
-                    <p className={styles.nameInfo}>Rodrigo Azevedo</p>
+                    <p className={styles.nameInfo}><span>&lt;</span> Rodrigo Azevedo <span>/&gt;</span></p>
                     <ul className={styles.InfoItems}>
                         <li className={styles.infoItem}><i className={`${styles.aboutIcon} bi bi-code-slash`}></i> Desenvolvedor Web desde 2022</li>
                         <li className={styles.infoItem}><i className={`${styles.aboutIcon} bi bi-pc-display`}></i> Cursando Ciência da Computação</li>

@@ -11,11 +11,17 @@
     font-size: 4rem;
     font-weight: 600;
     padding: 0rem 0 5rem;
+    color: #ffffff  ;
 }
 
 .nameInfo {
+    color: #9b9b9b;
     font-size: 3rem;
     font-weight: 600;
+}
+
+.nameInfo span {
+    color: #8C52FF;
 }
 
 .aboutInfo {
@@ -23,6 +29,7 @@
     align-items: center;
     justify-content: center;
     gap: 10rem;
+    color: #fff;
 }
 
 .InfoItems {
@@ -36,6 +43,7 @@
 }
 
 .aboutIcon {
+    color: #8b8b8b;
     font-size: 1.4rem;
     padding-right: .5rem;
 }
