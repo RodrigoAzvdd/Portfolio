@@ -1,5 +1,5 @@
 .container {
-    padding-bottom: 5rem;
+    padding: 5rem;
     background-color: #131313;
     min-height: 80vh;
     display: flex;
