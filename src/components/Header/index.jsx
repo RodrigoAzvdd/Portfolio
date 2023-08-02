@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import styles from "./style.module.css"
-import rodrigoImage from '/src/imgs/Rodrigo.png';
+import rodrigoImage from '/src/imgs/Rodrigo.svg';
 
 export default function Header() {
     return (
@@ -10,8 +10,6 @@ export default function Header() {
             </Link>
             <nav>
                 <Link className={styles.navLink} to={'/Portfolio'}>Início</Link>
-                <Link className={styles.navLink} to={'about'}>Sobre mim</Link>
-                <Link className={styles.navLink} to={'contact'}>Contato</Link>
                 <Link className={styles.navLink} to={'projects'}>Projetos</Link>
             </nav>
         </header>

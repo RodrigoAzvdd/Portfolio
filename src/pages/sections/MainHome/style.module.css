@@ -1,0 +1,62 @@
+.firstContent {
+    background: linear-gradient(#000000, #000000de);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 90vh;
+    color: #ffffff;
+}
+
+.headingTitle {
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.headingSubtitle {
+    font-size: 1.6rem;
+    padding: 2rem 1rem 5rem;
+}
+
+.purpleText {
+    color: #8C52FF;
+}
+
+.btn {
+    padding: 1rem 4rem;
+    background-color: transparent;
+    border-radius: .5rem;
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: .2rem;
+    transition: .5s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #8C52FF;
+    border-color: #8C52FF;
+    box-shadow: 0 0 5px #f0f0f0;
+}
+
+.arrow {
+    padding-top: 10rem;
+    font-size: 2rem;
+    animation: arrowDown 2s infinite;
+}
+
+
+@keyframes arrowDown {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}

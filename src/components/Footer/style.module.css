@@ -5,6 +5,7 @@ footer {
     justify-content: space-around;
     align-items: center;
     min-height: 15rem;
+    box-shadow: 0 0 10px #e0e0e0;
 }
 
 .copyright {

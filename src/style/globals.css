@@ -7,6 +7,19 @@
     font-family: 'Mulish', sans-serif;
 }
 
+::-webkit-scrollbar {
+    width: .5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #6b6b6b;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #bebebe;
+    border-radius: 5px;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -17,107 +30,4 @@ main {
     display: flex;
     flex-direction: column;
     flex: 1;
-}
-
-.firstContent {
-    background: linear-gradient(#f7f7f7d5, #f5f5f5c4), url("../imgs/homeBg.svg");
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 90vh;
-}
-
-.heading-title {
-    font-size: 4.5rem;
-    font-weight: bold;
-}
-
-.heading-subtitle {
-    font-size: 1.6rem;
-    padding: 2rem 1rem;
-}
-
-.arrow {
-    margin-top: 5rem;
-    width: 2rem;
-    animation: arrowDown 2s infinite;
-}
-
-@keyframes arrowDown {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-20px);
-    }
-}
-
-.aboutSection {
-    padding-bottom: 5rem;
-    background-color: #F2F2F2;
-    min-height: 80vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.aboutTitle {
-    font-size: 3.5rem;
-    font-weight: 600;
-    padding: 5rem 0;
-}
-
-.nameInfo {
-    font-size: 3rem;
-}
-
-.aboutInfo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10rem;
-}
-
-.InfoItems {
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
-    font-size: 1.1rem;
-    list-style: none;
-    font-weight: 600;
-    text-align: left;
-}
-
-.aboutIcon {
-    font-size: 1.2rem;
-    padding-right: .5rem;
-}
-
-.secondContentabout {
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-}
-
-.skills {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 4rem;
-}
-
-.skillsTitle {
-    padding-top: 5rem;
-    font-size: 3rem;
-    font-weight: 600;
-}
-
-.skillsContent {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
 }

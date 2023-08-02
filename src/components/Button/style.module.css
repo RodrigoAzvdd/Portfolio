@@ -1,10 +1,10 @@
 .btn {
     margin: 4rem 0;
     padding: 1rem 4rem;
-    background-color: #000;
+    background-color: #1a1a1a;
     border-radius: .5rem;
-    border: 1px solid #000;
-    color: #fff;
+    border: none;
+    color: #ffffff;
     font-weight: 600;
     font-size: 1.1rem;
     letter-spacing: .2rem;
@@ -14,5 +14,5 @@
 .btn:hover {
     cursor: pointer;
     transform: scale(1.1);
-    box-shadow: 0 0 5px #000;
+    box-shadow: 0 0 5px #f0f0f0;
 }

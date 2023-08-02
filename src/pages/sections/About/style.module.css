@@ -1,0 +1,68 @@
+.aboutSection {
+    padding-bottom: 5rem;
+    background: linear-gradient(#000000de, #000000de);
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutTitle {
+    font-size: 4rem;
+    font-weight: 600;
+    padding: 0rem 0 5rem;
+}
+
+.nameInfo {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.aboutInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.InfoItems {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    font-size: 1.1rem;
+    list-style: none;
+    font-weight: 600;
+    text-align: left;
+}
+
+.aboutIcon {
+    font-size: 1.4rem;
+    padding-right: .5rem;
+}
+
+.secondContentabout {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.skillsTitle {
+    padding-top: 5rem;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.skillsContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}

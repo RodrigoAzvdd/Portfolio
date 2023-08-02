@@ -3,8 +3,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 2rem 4rem;
-    border-bottom: 1px solid #f0f0f0;
-    background-color: #fff;
+    background-color: #000000;
 }
 
 .logoDiv {
@@ -15,6 +14,9 @@
 
 .logo {
     width: 10rem;
+    height: 2.5rem;
+    object-fit: cover;
+    background-color: #000;
 }
 
 nav {
@@ -28,18 +30,18 @@ nav {
     font-weight: 600;
     font-size: 1.2rem;
     text-decoration: none;
-    color: #000;
+    color: #ffffff;
     position: relative;
 }
 
 .navLink::after {
     content: "";
     position: absolute;
-    bottom: -2px;
+    bottom: -5px;
     left: 0;
     width: 100%;
-    height: 2px;
-    background-color: #000;
+    height: 3px;
+    background-color: #8C52FF;
     transform: scaleX(0);
     transition: transform 0.3s;
 }
