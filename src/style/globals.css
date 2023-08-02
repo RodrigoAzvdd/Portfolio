@@ -20,7 +20,7 @@ main {
 }
 
 .firstContent {
-    background: linear-gradient(#f7f7f7d5, #f5f5f5c4), url("../assets/homeBg.svg");
+    background: linear-gradient(#f7f7f7d5, #f5f5f5c4), url("../imgs/homeBg.svg");
     display: flex;
     flex-direction: column;
     justify-content: center;
