@@ -1,6 +1,7 @@
 import Button from "../components/Button";
 import { Link } from "react-router-dom"
 import ImgCard from "../components/ImgCard";
+import SkillCard from "../components/SkillCard";
 
 function Home() {
     return (
@@ -18,7 +19,7 @@ function Home() {
             <section className="aboutSection">
                 <p className="aboutTitle">Sobre mim</p>
                 <div className="aboutInfo">
-                    <ImgCard url={"src/assets/CardImg2.jpeg"} alt={"cardImg"} />
+                    <ImgCard url={"src/assets/steamProfile.PNG"} alt={"cardImg"} />
                     <div className="secondContentabout">
                         <p className="nameInfo">Rodrigo Azevedo</p>
                         <ul className="InfoItems">
@@ -33,6 +34,16 @@ function Home() {
                     <p className="skillsTitle">
                         Habilidades
                     </p>
+                    <div className="skillsContent">
+                        <SkillCard text={"HTML"} />
+                        <SkillCard text={"CSS"} />
+                        <SkillCard text={"Javascript"} />
+                        <SkillCard text={"React"} />
+                        <SkillCard text={"Java"} />
+                        <SkillCard text={"GIT"} />
+                        <SkillCard text={"BootStrap"} />
+                        <SkillCard text={"MySQL"} />
+                    </div>
                 </div>
             </section>
         </main>

@@ -1,0 +1,14 @@
+.cardContainer {
+    margin: 1rem 0;
+    background-color: #070707;
+    box-shadow: 0 0 5px #919090;
+    border-radius: .6rem;
+    width: min-content;
+    padding: .5rem 1.5rem;
+}
+
+.skill {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #ffffff;
+}

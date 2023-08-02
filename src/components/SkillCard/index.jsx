@@ -5,10 +5,10 @@ SkillCard.propTypes = {
     text: PropTypes.string
 }
 
-export default function SkillCard({text}) {
+export default function SkillCard({ text }) {
     return (
-        <span>
-            
-        </span>
+        <div className={styles.cardContainer}>
+            <p className={styles.skill}>{text}</p>
+        </div>
     )
 }
