@@ -1,0 +1,13 @@
+.projectContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    background: linear-gradient(#000000, #131313);
+}
+
+.message {
+    font-size: 5rem;
+    color: #fff;
+}

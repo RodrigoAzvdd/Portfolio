@@ -1,8 +1,12 @@
+import "../style/projectsStyle.css"
+
 function Projects() {
     return (
-        <main>
-            Projeto
-        </main>
+        <section className="projectContainer">
+            <p className="message">
+                " Projetos "
+            </p>
+        </section>
     );
 }
 
