@@ -1,6 +1,6 @@
 footer {
     background-color: #131313;
-    padding: 3rem;
+    padding: 1rem 3rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -13,40 +13,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.linkedinLogo,
-.githubLogo,
-.instagramLogo {
-    color: #fff;
-    font-size: 2rem;
-    transition: .5s;
-}
-
-.linkedinLogo:hover {
-    color: #0077B5;
-}
-
-.githubLogo:hover {
-    color: #8400ff;
-}
-
-.instagramLogo:hover {
-    color:  #E4405F;
-}
-
-.socialMedias {
-    display: flex;
-    gap: 4rem;
-}
-
-.socialMediaLogo {
-    text-decoration: none;
-    color: inherit;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
 }
 
 .heart {

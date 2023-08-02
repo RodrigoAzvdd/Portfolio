@@ -1,0 +1,74 @@
+.container {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #131313;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr {
+    width: 80%;
+}
+
+.title {
+    padding-top: 8rem;
+    font-size: 4rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.linkedinLogo,
+.githubLogo,
+.instagramLogo,
+.emailLogo {
+    color: #fff;
+    font-size: 2.5rem;
+    transition: .5s;
+}
+
+.linkedin:hover {
+    .linkedinLogo {
+        color: #0077B5;
+    }
+}
+
+.github:hover {
+    .githubLogo {
+        color: #8400ff;
+    }
+}
+
+.email:hover {
+    .emailLogo {
+        color: #ee5a5a;
+    }
+}
+
+.socialMedias {
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.socialMediaLogo {
+    cursor: pointer;
+    background-color: #33333342;
+    border-radius: .5rem;
+    padding: 1.5rem 2rem;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.mediaName {
+    color: #949494;
+    font-size: 1rem;
+    font-weight: 500;
+}

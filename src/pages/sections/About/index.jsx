@@ -4,7 +4,7 @@ import styles from './style.module.css'
 
 function About() {
     return (
-        <section className={styles.aboutSection}>
+        <section className={styles.container}>
             <p className={styles.aboutTitle}>Sobre mim</p>
             <div className={styles.aboutInfo}>
                 <ImgCard url={imgCard} alt={"cardImg"} />
