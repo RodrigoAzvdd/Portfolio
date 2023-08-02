@@ -10,7 +10,7 @@ export default function Footer() {
                 <a href="https://www.github.com/RodrigoAzvdd" target="_blank" className={styles.socialMediaLogo} rel="noreferrer">
                     <i className={`bi bi-github ${styles.githubLogo}`}></i>
                 </a>
-                <a href="https://www.github.com/RodrigoAzvdd" target="_blank" className={styles.socialMediaLogo} rel="noreferrer">
+                <a href="https://www.instagram.com/_rodrigoazvd/" target="_blank" className={styles.socialMediaLogo} rel="noreferrer">
                     <i className={`bi bi-instagram ${styles.instagramLogo}`}></i>
                 </a>
             </div>

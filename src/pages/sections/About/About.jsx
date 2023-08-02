@@ -1,5 +1,4 @@
-import SkillCard from '../../../components/SkillCard';
-import imgCard from '/src/imgs/profile.png';
+import imgCard from '/src/imgs/profile3.jpeg';
 import ImgCard from '../../../components/ImgCard'
 import styles from './style.module.css'
 
@@ -24,16 +23,36 @@ function About() {
                     Habilidades
                 </p>
                 <div className={styles.skillsContent}>
-                    <SkillCard text={"HTML"} />
-                    <SkillCard text={"CSS"} />
-                    <SkillCard text={"SASS"} />
-                    <SkillCard text={"Javascript"} />
-                    <SkillCard text={"React"} />
-                    <SkillCard text={"Java"} />
-                    <SkillCard text={"BootStrap"} />
-                    <SkillCard text={"MySQL"} />
-                    <SkillCard text={"GIT"} />
-                    <SkillCard text={"Github"} />
+                    <div className={styles.iconCard}>
+                        <i className={`devicon-react-original ${styles.icon} ${styles.icon1}`}></i>
+                    </div>
+                    <div className={styles.iconCard}>
+                        <i className={`devicon-html5-plain ${styles.icon} ${styles.icon2}`}></i>
+                    </div>
+                    <div className={styles.iconCard}>
+                        <i className={`devicon-css3-plain ${styles.icon} ${styles.icon3}`}></i>
+                    </div>
+                    <div className={styles.iconCard}>
+                        <i className={`devicon-javascript-plain ${styles.icon} ${styles.icon4}`}></i>
+                    </div>
+                    <div className={styles.iconCard}>
+                        <i className={`devicon-mysql-plain ${styles.icon} ${styles.icon5}`}></i>
+                    </div>
+                    <div className={styles.iconCard}>
+                        <i className={`devicon-git-plain ${styles.icon} ${styles.icon6}`}></i>
+                    </div>
+                    <div className={styles.iconCard}>
+                        <i className={`devicon-github-original ${styles.icon} ${styles.icon7}`}></i>
+                    </div>
+                    <div className={styles.iconCard}>
+                        <i className={`devicon-sass-original ${styles.icon} ${styles.icon8}`}></i>
+                    </div>
+                    <div className={styles.iconCard}>
+                        <i className={`devicon-java-plain ${styles.icon} ${styles.icon9}`}></i>
+                    </div>
+                    <div className={styles.iconCard}>
+                        <i className={`devicon-bootstrap-plain ${styles.icon} ${styles.icon10}`}></i>
+                    </div>
                 </div>
             </div>
         </section>

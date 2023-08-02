@@ -1,10 +1,12 @@
 footer {
+    background-color: #131313;
     padding: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     min-height: 15rem;
+    color: #fff;
 }
 
 .copyright {
@@ -14,8 +16,9 @@ footer {
 }
 
 .linkedinLogo,
-.githubLogo {
-    color: #000;
+.githubLogo,
+.instagramLogo {
+    color: #fff;
     font-size: 2rem;
     transition: .5s;
 }
@@ -26,12 +29,6 @@ footer {
 
 .githubLogo:hover {
     color: #8400ff;
-}
-
-.instagramLogo {
-    font-size: 2rem;
-    transition: .5s;
-    color: #000;
 }
 
 .instagramLogo:hover {

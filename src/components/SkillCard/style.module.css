@@ -1,13 +1,15 @@
 .cardContainer {
     margin: 1rem 0;
     background-color: #000000;
-    box-shadow: 0 0 5px #000000;
+    border: none;
     border-radius: .6rem;
     width: min-content;
     padding: .5rem 1.5rem;
+    transition: .5s;
 }
 
 .skill {
+    transition: .5s;
     font-size: 1.1rem;
     font-weight: 600;
     color: #ffffff;

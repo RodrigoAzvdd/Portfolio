@@ -1,6 +1,6 @@
 .aboutSection {
     padding-bottom: 5rem;
-    background: linear-gradient(#000000de, #000000de);
+    background-color: #131313;
     min-height: 80vh;
     display: flex;
     flex-direction: column;
@@ -11,7 +11,7 @@
     font-size: 4rem;
     font-weight: 600;
     padding: 0rem 0 5rem;
-    color: #ffffff  ;
+    color: #ffffff;
 }
 
 .nameInfo {
@@ -65,12 +65,61 @@
     padding-top: 5rem;
     font-size: 3rem;
     font-weight: 600;
+    color: #8C52FF;
 }
 
 .skillsContent {
+    padding-top: 2rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 4rem;
+}
+
+.icon {
+    cursor: pointer;
+    color: #fff;
+    font-size: 4rem;
+    transition: .5s;
+}
+
+.icon1:hover {
+    color: #61DAFB;
+}
+
+.icon2:hover {
+    color: #E34F26;
+}
+
+.icon3:hover {
+    color: #1572B6;
+}
+
+.icon4:hover {
+    color: #F7DF1E;
+}
+
+.icon5:hover {
+    color: #4479A1;
+}
+
+.icon6:hover {
+    color: #F05032;
+}
+
+.icon7:hover {
+    color: #8400ff;
+}
+
+.icon8:hover {
+    color: #CC6699;
+}
+
+.icon9:hover {
+    color: #007396;
+}
+
+.icon10:hover {
+    color: #7952B3;
 }
