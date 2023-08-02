@@ -9,7 +9,7 @@ function Home() {
             <section className="firstContent">
                 <p className="heading-title">OLÁ, SOU RODRIGO AZEVEDO!</p>
                 <p className="heading-subtitle">Desenvolvedor Frontend apaixonado por criar experiências web incríveis.</p>
-                <Link to={'Portfolio/projects'}>
+                <Link to={'projects'}>
                     <Button text={"Projetos"} />
                 </Link>
                 <p>
