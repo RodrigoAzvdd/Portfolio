@@ -21,7 +21,8 @@ hr {
 .linkedinLogo,
 .githubLogo,
 .instagramLogo,
-.emailLogo {
+.emailLogo,
+.phoneLogo {
     color: #fff;
     font-size: 2.5rem;
     transition: .5s;
@@ -35,13 +36,19 @@ hr {
 
 .github:hover {
     .githubLogo {
-        color: #8400ff;
+        color: #a453f0;
     }
 }
 
 .email:hover {
     .emailLogo {
         color: #ee5a5a;
+    }
+}
+
+.phone:hover {
+    .phoneLogo {
+        color: #96f870;
     }
 }
 
@@ -58,7 +65,8 @@ hr {
     cursor: pointer;
     background-color: #33333342;
     border-radius: .5rem;
-    padding: 1.5rem 2rem;
+    padding: 1.5rem 0rem;
+    width: 22rem;
     text-decoration: none;
     color: inherit;
     display: flex;
