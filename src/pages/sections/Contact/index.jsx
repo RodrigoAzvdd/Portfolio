@@ -17,19 +17,19 @@ export default function Contact() {
                 <hr />
                 <p className={styles.title}>Contato</p>
                 <div className={styles.socialMedias}>
-                    <a data-aos="zoom-out" href="https://www.linkedin.com/in/rodrigoazvd" target="_blank" className={`${styles.socialMediaLogo} ${styles.linkedin}`} rel="noreferrer">
+                    <a data-aos="fade-up" href="https://www.linkedin.com/in/rodrigoazvd" target="_blank" className={`${styles.socialMediaLogo} ${styles.linkedin}`} rel="noreferrer">
                         <i className={`bi bi-linkedin ${styles.linkedinLogo}`}></i>
                         <p className={styles.mediaName}>LinkedIn/RodrigoAzevedo</p>
                     </a>
-                    <a data-aos="zoom-out" href="https://www.github.com/RodrigoAzvdd" target="_blank" className={`${styles.socialMediaLogo} ${styles.github}`} rel="noreferrer">
+                    <a data-aos="fade-up" href="https://www.github.com/RodrigoAzvdd" target="_blank" className={`${styles.socialMediaLogo} ${styles.github}`} rel="noreferrer">
                         <i className={`bi bi-github ${styles.githubLogo}`}></i>
                         <p className={styles.mediaName}>Github/RodrigoAzvdd</p>
                     </a>
-                    <a data-aos="zoom-out" className={`${styles.socialMediaLogo} ${styles.email}`}>
+                    <a data-aos="fade-up" className={`${styles.socialMediaLogo} ${styles.email}`}>
                         <i className={`bi bi-envelope ${styles.emailLogo}`}></i>
                         <p className={styles.mediaName}>Rodrigo.azvd750@gmail.com</p>
                     </a>
-                    <a data-aos="zoom-out" className={`${styles.socialMediaLogo} ${styles.phone}`}>
+                    <a data-aos="fade-up" className={`${styles.socialMediaLogo} ${styles.phone}`}>
                         <i className={`bi bi-phone ${styles.phoneLogo}`}></i>
                         <p className={styles.mediaName}>(85) 98734-8419</p>
                     </a>
