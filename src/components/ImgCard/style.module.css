@@ -2,7 +2,6 @@
     width: 20rem;
     height: 20rem;
     border: 5px solid #8C52FF;
-    object-position: 5px -160px;
     object-fit: cover;
     border-radius: 10rem;
 }
