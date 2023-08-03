@@ -13,6 +13,7 @@
 .headingTitle {
     font-size: 4.5rem;
     font-weight: bold;
+    padding: 0 1rem;
 }
 
 .headingTitle::after {

@@ -1,0 +1,74 @@
+.hamNav {
+    display: flex;
+    flex-direction: column;
+}
+
+.hamIcon {
+    top: 2rem;
+    right: 4rem;
+    position: absolute;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.links {
+    top: 6rem;
+    left: 4.5rem;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.navLink {
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #ffffff;
+    position: relative;
+}
+
+.navLink::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #8C52FF;
+    transform: scaleX(0);
+    transition: transform 0.3s;
+}
+
+.navLink:hover::after {
+    transform: scaleX(1);
+}
+
+.linksOpen {
+    display: flex;
+}
+
+.linksClose {
+    display: none;
+}
+
+.linksEnter {
+    opacity: 0;
+    transform: translateY(-20px);
+}
+
+.linksEnterActive {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 300ms, transform 300ms;
+}
+
+.linksExit {
+    opacity: 1;
+}
+
+.linksExitActive {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 300ms, transform 300ms;
+}

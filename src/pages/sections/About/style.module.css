@@ -146,6 +146,7 @@
         text-align: center;
     }
 }
+
 @media (max-width: 485px) {
     .aboutTitle {
         font-size: 3rem;
