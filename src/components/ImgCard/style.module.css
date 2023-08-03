@@ -5,3 +5,10 @@
     object-fit: cover;
     border-radius: 10rem;
 }
+
+@media (max-width: 1140px) {
+    .img {
+        width: 15rem;
+        height: 15rem;
+    }
+}

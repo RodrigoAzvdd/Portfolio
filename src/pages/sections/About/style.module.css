@@ -8,6 +8,7 @@
 }
 
 .aboutTitle {
+    text-align: center;
     font-size: 4rem;
     font-weight: 600;
     padding: 0rem 0 5rem;
@@ -28,7 +29,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10rem;
+    gap: 5rem;
     color: #fff;
 }
 
@@ -122,4 +123,31 @@
 
 .icon10:hover {
     color: #7952B3;
+}
+
+@media (max-width: 1140px) {
+    .nameInfo {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 1040px) {
+    .aboutInfo {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nameInfo {
+        font-size: 3rem;
+    }
+
+    .secondContentabout {
+        text-align: center;
+    }
+}
+@media (max-width: 485px) {
+    .aboutTitle {
+        font-size: 3rem;
+    }
 }

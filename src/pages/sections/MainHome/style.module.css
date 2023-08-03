@@ -53,7 +53,7 @@
 }
 
 .arrow {
-    padding-top: 20rem;
+    padding-top: 10rem;
     font-size: 2rem;
     animation: arrowDown 2s infinite;
 }
@@ -67,5 +67,25 @@
 
     50% {
         transform: translateY(-20px);
+    }
+}
+
+@media (max-width: 1120px) {
+    .headingTitle {
+        font-size: 3rem;
+    }
+
+    .headingSubtitle {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 750px) {
+    .headingTitle {
+        font-size: 2rem;
+    }
+
+    .headingSubtitle {
+        font-size: 1rem;
     }
 }

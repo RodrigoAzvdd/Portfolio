@@ -55,7 +55,7 @@ hr {
 .socialMedias {
     align-items: center;
     justify-content: center;
-    padding-top: 4rem;
+    padding: 4rem 1rem;
     display: flex;
     gap: 4rem;
     flex-wrap: wrap;
@@ -79,4 +79,10 @@ hr {
     color: #949494;
     font-size: 1rem;
     font-weight: 500;
+}
+
+@media (max-width: 850px) {
+    .socialMedias {
+        gap: 2rem;
+    }
 }
