@@ -6,6 +6,10 @@ import { CSSTransition } from 'react-transition-group';
 export default function HambNav() {
     const [showLinks, setShowLinks] = useState(false);
 
+    const handleClick = () => {
+        setShowLinks(currentState => !currentState)
+    }
+
     return (
         <nav className={styles.hamNav}>
             <i
@@ -24,8 +28,8 @@ export default function HambNav() {
                 unmountOnExit
             >
                 <div className={`${styles.links} ${styles.linksOpen}`}>
-                    <Link className={styles.navLink} to={'/Portfolio'}>Início</Link>
-                    <Link className={styles.navLink} to={'projects'}>Projetos</Link>
+                    <Link onClick={handleClick} className={styles.navLink} to={'/Portfolio'}>Início</Link>
+                    <Link onClick={handleClick} className={styles.navLink} to={'projects'}>Projetos</Link>
                 </div>
             </CSSTransition>
         </nav>
