@@ -1,5 +1,5 @@
 .container {
-    padding: 5rem;
+    padding: 5rem 2rem;
     background-color: #131313;
     min-height: 80vh;
     display: flex;
@@ -150,5 +150,11 @@
 @media (max-width: 485px) {
     .aboutTitle {
         font-size: 3rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .nameInfo {
+        font-size: 2rem;
     }
 }
