@@ -1,7 +1,96 @@
 .imgCard {
-    width: 20rem;
+    width: 40rem;
+    border-radius: .2rem;
 }
 
 .container {
+    padding: 5rem 0rem 2rem;
     color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10rem;
+}
+
+.mainTitle {
+    font-size: 4rem;
+}
+
+.cardOnLeft {
+    display: flex;
+    gap: 5rem;
+    padding: 0 15rem;
+}
+
+.cardOnRight {
+    text-align: right;
+    flex-direction: row-reverse;
+    display: flex;
+    gap: 5rem;
+    padding: 0 15rem;
+}
+
+.cardOnRight img {
+    margin-right: 2rem;
+}
+
+.cardOnRight .tecDiv,
+.cardOnRight .viewOptions {
+    justify-content: end;
+}
+
+.infoCard {
+    padding: .5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardTitle {
+    color: #8C52FF;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: .1rem;
+}
+
+.cardDescrition {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+.tecDiv {
+    display: flex;
+    gap: 1rem;
+}
+
+.tecName {
+    color: #8C52FF;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.viewOptions {
+    display: flex;
+    gap: 2rem;
+}
+
+.viewOptions a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.eyeIcon,
+.codeIcon {
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: .5rem .7rem;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    transition: .5s;
+}
+
+.eyeIcon:hover,
+.codeIcon:hover {
+    border-color: #8C52FF;
 }
