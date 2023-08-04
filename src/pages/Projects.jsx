@@ -1,4 +1,5 @@
 import "../style/projectsStyle.css"
+import ProjectsCards from "./sections/ProjectsCards";
 
 function Projects() {
     return (
@@ -6,6 +7,7 @@ function Projects() {
             <p className="message">
                 &quot; Projetos &quot;
             </p>
+            <ProjectsCards />
         </section>
     );
 }
