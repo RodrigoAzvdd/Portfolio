@@ -90,3 +90,8 @@
         font-size: 1rem;
     }
 }
+@media (max-width: 360px) {
+    .arrow {
+        padding-top: 5rem;
+    }
+}
