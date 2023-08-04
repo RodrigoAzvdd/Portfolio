@@ -11,7 +11,6 @@ function About() {
         Aos.init({ duration: 2000 })
     }, [])
 
-
     return (
         <section className={styles.container}>
             <p className={`${styles.aboutTitle}`}>Sobre mim</p>

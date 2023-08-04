@@ -86,3 +86,9 @@ hr {
         gap: 2rem;
     }
 }
+
+@media (max-width: 400px) {
+    .socialMediaLogo {
+        width: 95%;
+    }
+}
