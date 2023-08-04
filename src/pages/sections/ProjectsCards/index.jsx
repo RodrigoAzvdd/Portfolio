@@ -57,8 +57,8 @@ export default function ProjectsCards() {
                         <span className={styles.tecName}>BOOTSTRAP</span>
                     </div>
                     <div className={styles.viewOptions}>
-                        <a href='https://rodrigoazvdd.github.io/React-Stock/' target='_blank' rel="noreferrer"><i className={`bi bi-eye ${styles.eyeIcon}`}></i></a>
-                        <a href='https://github.com/RodrigoAzvdd/React-Stock' target='_blank' rel="noreferrer"><i className={`bi bi-code-slash ${styles.codeIcon}`}></i></a>
+                        <a href='https://rodrigoazvdd.github.io/OBC_LandingPage/' target='_blank' rel="noreferrer"><i className={`bi bi-eye ${styles.eyeIcon}`}></i></a>
+                        <a href='https://github.com/RodrigoAzvdd/OBC_LandingPage' target='_blank' rel="noreferrer"><i className={`bi bi-code-slash ${styles.codeIcon}`}></i></a>
                     </div>
                 </div>
             </div>
@@ -75,8 +75,8 @@ export default function ProjectsCards() {
                         <span className={styles.tecName}>RestCountries API</span>
                     </div>
                     <div className={styles.viewOptions}>
-                        <a href='https://rodrigoazvdd.github.io/LandingPage_SpaceX/' target='_blank' rel="noreferrer"><i className={`bi bi-eye ${styles.eyeIcon}`}></i></a>
-                        <a href='https://github.com/RodrigoAzvdd/LandingPage_SpaceX' target='_blank' rel="noreferrer"><i className={`bi bi-code-slash ${styles.codeIcon}`}></i></a>
+                        <a href='https://rodrigoazvdd.github.io/RestCountries-API/' target='_blank' rel="noreferrer"><i className={`bi bi-eye ${styles.eyeIcon}`}></i></a>
+                        <a href='https://github.com/RodrigoAzvdd/RestCountries-API' target='_blank' rel="noreferrer"><i className={`bi bi-code-slash ${styles.codeIcon}`}></i></a>
                     </div>
                 </div>
             </div>
