@@ -7,9 +7,7 @@ import restCountry from '/src/imgs/projects/restCountry.png';
 export default function ProjectsCards() {
     return (
         <section className={styles.container}>
-
             <h1 className={styles.mainTitle}>Projetos</h1>
-
             <div className={styles.cardOnLeft}>
                 <img className={styles.imgCard} src={reactStock} alt="" />
                 <div className={styles.infoCard}>
