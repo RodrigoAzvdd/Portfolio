@@ -4,7 +4,7 @@
 }
 
 .container {
-    padding: 5rem 0rem 2rem;
+    padding: 2rem 0rem 2rem;
     color: #fff;
     min-height: 100vh;
     display: flex;
@@ -20,7 +20,7 @@
 .cardOnLeft {
     display: flex;
     gap: 5rem;
-    padding: 0 15rem;
+    padding: 0 5%;
 }
 
 .cardOnRight {
@@ -28,7 +28,7 @@
     flex-direction: row-reverse;
     display: flex;
     gap: 5rem;
-    padding: 0 15rem;
+    padding: 0 5%;
 }
 
 .cardOnRight img {
@@ -93,4 +93,75 @@
 .eyeIcon:hover,
 .codeIcon:hover {
     border-color: #8C52FF;
+}
+
+@media (max-width: 1300px) {
+
+    .cardOnLeft,
+    .cardOnRight {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .cardOnRight {
+        text-align: left;
+    }
+
+    .infoCard {
+        width: 40rem;
+        gap: 2rem;
+    }
+
+    .cardOnRight .tecDiv,
+    .cardOnRight .viewOptions {
+        justify-content: flex-start;
+    }
+
+    .cardOnRight img {
+        margin-right: 0;
+    }
+}
+@media (max-width: 710px) {
+    .imgCard {
+        width: 30rem;
+    }
+
+    .infoCard {
+        width: 30rem;
+    }
+
+    .cardTitle {
+        font-size: 1.5rem;
+    }
+
+    .cardDescrition {
+        font-size: 1rem;
+    }
+
+    .tecName {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 530px) {
+    .imgCard {
+        width: 24rem;
+    }
+
+    .infoCard {
+        width: 24rem;
+    }
+
+    .cardTitle {
+        font-size: 1.2.5rem;
+    }
+
+    .cardDescrition {
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .tecName {
+        font-size: 1rem;
+    }
 }
