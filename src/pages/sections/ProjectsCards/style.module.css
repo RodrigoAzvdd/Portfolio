@@ -15,6 +15,7 @@
 
 .mainTitle {
     font-size: 4rem;
+    letter-spacing: .5rem;
 }
 
 .mainTitle::after {
