@@ -5,7 +5,7 @@ import Projects from './pages/Projects'
 
 const router = createBrowserRouter([
     {
-        path: '/Portfolio',
+        path: '/Portfolio/',
         element: <RootLayout />,
         children: [
             {
@@ -13,7 +13,7 @@ const router = createBrowserRouter([
                 element: <Home />
             },
             {
-                path: '/projects',
+                path: 'projects',
                 element: <Projects />
             }
         ]
