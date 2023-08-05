@@ -17,6 +17,16 @@
     font-size: 4rem;
 }
 
+.mainTitle::after {
+    content: "";
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #8C52FF;
+    margin-left: 5px;
+}
+
 .cardOnLeft {
     display: flex;
     gap: 5rem;
@@ -121,6 +131,7 @@
         margin-right: 0;
     }
 }
+
 @media (max-width: 710px) {
     .imgCard {
         width: 30rem;
