@@ -156,12 +156,17 @@
 }
 
 @media (max-width: 530px) {
+
+    .mainTitle {
+        font-size: 2.5rem;
+    }
+
     .imgCard {
-        width: 24rem;
+        width: 20rem;
     }
 
     .infoCard {
-        width: 24rem;
+        width: 20rem;
     }
 
     .cardTitle {
