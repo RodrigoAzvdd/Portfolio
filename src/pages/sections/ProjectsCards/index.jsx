@@ -3,6 +3,7 @@ import reactStock from '/src/imgs/projects/reactStock.png';
 import spaceX from '/src/imgs/projects/SpaceX.png';
 import obcLP from '/src/imgs/projects/obcLP.png';
 import restCountry from '/src/imgs/projects/restCountry.png';
+import coffeShop from '/src/imgs/projects/CoffeShop.png';
 
 export default function ProjectsCards() {
     return (
@@ -75,6 +76,23 @@ export default function ProjectsCards() {
                     <div className={styles.viewOptions}>
                         <a href='https://rodrigoazvdd.github.io/RestCountries-API/' target='_blank' rel="noreferrer"><i className={`bi bi-eye ${styles.eyeIcon}`}></i></a>
                         <a href='https://github.com/RodrigoAzvdd/RestCountries-API' target='_blank' rel="noreferrer"><i className={`bi bi-code-slash ${styles.codeIcon}`}></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div className={styles.cardOnLeft}>
+                <img className={styles.imgCard} src={coffeShop} alt="" />
+                <div className={styles.infoCard}>
+                    <h3 className={styles.cardTitle}>CoffeeShop Page</h3>
+                    <p className={styles.cardDescrition}><strong>CoffeeShop</strong> é uma página de site responsivo inspirada na primeira página da Starbucks. Desenvolvida como um exercício de frontend, a CoffeeShop Page foi criada utilizando HTML, CSS e conceitos de design. O objetivo era capturar a essência acolhedora de uma cafeteria virtual, proporcionando uma experiência visualmente agradável em diversos dispositivos, desde desktops até smartphones. Embora não possua funcionalidades avançadas, o foco do projeto está no design envolvente e na responsividade.</p>
+                    <div className={styles.tecDiv}>
+                        <span className={styles.tecName}>HTML</span>
+                        <span className={styles.tecName}>SASS</span>
+                        <span className={styles.tecName}>JS</span>
+                    </div>
+                    <div className={styles.viewOptions}>
+                        <a href='https://rodrigoazvdd.github.io/Clone-Starbucks-FirstPage/' target='_blank' rel="noreferrer"><i className={`bi bi-eye ${styles.eyeIcon}`}></i></a>
+                        <a href='https://github.com/RodrigoAzvdd/Clone-Starbucks-FirstPage' target='_blank' rel="noreferrer"><i className={`bi bi-code-slash ${styles.codeIcon}`}></i></a>
                     </div>
                 </div>
             </div>
