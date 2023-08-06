@@ -91,8 +91,8 @@ export default function ProjectsCards() {
                         <span className={styles.tecName}>JS</span>
                     </div>
                     <div className={styles.viewOptions}>
-                        <a href='https://rodrigoazvdd.github.io/Clone-Starbucks-FirstPage/' target='_blank' rel="noreferrer"><i className={`bi bi-eye ${styles.eyeIcon}`}></i></a>
-                        <a href='https://github.com/RodrigoAzvdd/Clone-Starbucks-FirstPage' target='_blank' rel="noreferrer"><i className={`bi bi-code-slash ${styles.codeIcon}`}></i></a>
+                        <a href='https://rodrigoazvdd.github.io/CoffeeShop-FirstPage/' target='_blank' rel="noreferrer"><i className={`bi bi-eye ${styles.eyeIcon}`}></i></a>
+                        <a href='https://github.com/RodrigoAzvdd/CoffeeShop-FirstPage' target='_blank' rel="noreferrer"><i className={`bi bi-code-slash ${styles.codeIcon}`}></i></a>
                     </div>
                 </div>
             </div>
