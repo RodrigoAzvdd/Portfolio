@@ -29,7 +29,7 @@ export default function Contact() {
                         <i className={`bi bi-envelope ${styles.emailLogo}`}></i>
                         <p className={styles.mediaName}>Rodrigo.azvd750@gmail.com</p>
                     </a>
-                    <a data-aos="fade-up" className={`${styles.socialMediaLogo} ${styles.phone}`}>
+                    <a data-aos="fade-up" href='https://api.whatsapp.com/send/?phone=85987348419&text&type=phone_number&app_absent=0' target='_blank' className={`${styles.socialMediaLogo} ${styles.phone}`} rel="noreferrer">
                         <i className={`bi bi-phone ${styles.phoneLogo}`}></i>
                         <p className={styles.mediaName}>(85) 98734-8419</p>
                     </a>
