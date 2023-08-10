@@ -4,6 +4,7 @@ import spaceX from '/src/imgs/projects/SpaceX.png';
 import obcLP from '/src/imgs/projects/obcLP.png';
 import restCountry from '/src/imgs/projects/restCountry.png';
 import coffeShop from '/src/imgs/projects/CoffeShop.png';
+import rickAndMorty from '/src/imgs/projects/rickandmorty.png';
 
 export default function ProjectsCards() {
     return (
@@ -93,6 +94,24 @@ export default function ProjectsCards() {
                     <div className={styles.viewOptions}>
                         <a href='https://rodrigoazvdd.github.io/CoffeeShop-FirstPage/' target='_blank' rel="noreferrer"><i className={`bi bi-eye ${styles.eyeIcon}`}></i></a>
                         <a href='https://github.com/RodrigoAzvdd/CoffeeShop-FirstPage' target='_blank' rel="noreferrer"><i className={`bi bi-code-slash ${styles.codeIcon}`}></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div className={styles.cardOnLeft}>
+                <img className={styles.imgCard} src={rickAndMorty} alt="" />
+                <div className={styles.infoCard}>
+                    <h3 className={styles.cardTitle}>Rick and Morty Explorer</h3>
+                    <p className={styles.cardDescrition}>O projeto <strong>Rick and Morty Explorer</strong> é uma plataforma de exploração dos personagens do universo de &quot;Rick and Morty&quot;, desenvolvida com HTML, CSS, JavaScript e React. Combinando funcionalidade e interatividade, os entusiastas da série podem buscar seus personagens favoritos por nome ou espécie. Não importa se você está acessando pelo computador, tablet ou smartphone, a aplicação oferece uma experiência perfeitamente adaptada, garantindo uma jornada suave e imersiva enquanto os fãs exploram os detalhes e curiosidades dos personagens dessa incrível saga animada.</p>
+                    <div className={styles.tecDiv}>
+                        <span className={styles.tecName}>HTML</span>
+                        <span className={styles.tecName}>CSS</span>
+                        <span className={styles.tecName}>JS</span>
+                        <span className={styles.tecName}>REACT</span>
+                    </div>
+                    <div className={styles.viewOptions}>
+                        <a href='https://rodrigoazvdd.github.io/Rick-and-Morty/' target='_blank' rel="noreferrer"><i className={`bi bi-eye ${styles.eyeIcon}`}></i></a>
+                        <a href='https://github.com/RodrigoAzvdd/Rick-and-Morty' target='_blank' rel="noreferrer"><i className={`bi bi-code-slash ${styles.codeIcon}`}></i></a>
                     </div>
                 </div>
             </div>
