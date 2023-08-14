@@ -98,7 +98,7 @@ export default function ProjectsCards() {
                 </div>
             </div>
 
-            <div className={styles.cardOnLeft}>
+            <div className={styles.cardOnRight}>
                 <img className={styles.imgCard} src={rickAndMorty} alt="" />
                 <div className={styles.infoCard}>
                     <h3 className={styles.cardTitle}>Rick and Morty Explorer</h3>
