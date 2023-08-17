@@ -1,0 +1,159 @@
+.imgCard {
+    width: 40rem;
+    border-radius: .2rem;
+}
+
+.cardOnLeft {
+    display: flex;
+    gap: 5rem;
+    padding: 0 5%;
+}
+
+.cardOnRight {
+    text-align: right;
+    flex-direction: row-reverse;
+    display: flex;
+    gap: 5rem;
+    padding: 0 5%;
+}
+
+.cardOnRight img {
+    margin-right: 2rem;
+}
+
+.cardOnRight .tecDiv,
+.cardOnRight .viewOptions {
+    justify-content: end;
+}
+
+.infoCard {
+    padding: .5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardTitle {
+    color: #8C52FF;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: .1rem;
+}
+
+.cardDescrition {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+
+.tecDiv {
+    display: flex;
+    gap: 1rem;
+}
+
+.tecName {
+    color: #8C52FF;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.viewOptions {
+    display: flex;
+    gap: 2rem;
+}
+
+.viewOptions a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.eyeIcon,
+.codeIcon {
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: .5rem .7rem;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    transition: .5s;
+}
+
+.eyeIcon:hover,
+.codeIcon:hover {
+    border-color: #8C52FF;
+}
+
+@media (max-width: 1300px) {
+
+    .cardOnLeft,
+    .cardOnRight {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .cardOnRight {
+        text-align: left;
+    }
+
+    .infoCard {
+        width: 40rem;
+        gap: 2rem;
+    }
+
+    .cardOnRight .tecDiv,
+    .cardOnRight .viewOptions {
+        justify-content: flex-start;
+    }
+
+    .cardOnRight img {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 710px) {
+    .imgCard {
+        width: 30rem;
+    }
+
+    .infoCard {
+        width: 30rem;
+    }
+
+    .cardTitle {
+        font-size: 1.5rem;
+    }
+
+    .cardDescrition {
+        font-size: 1rem;
+    }
+
+    .tecName {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 530px) {
+
+    .mainTitle {
+        font-size: 2.5rem;
+    }
+
+    .imgCard {
+        width: 20rem;
+    }
+
+    .infoCard {
+        width: 20rem;
+    }
+
+    .cardTitle {
+        font-size: 1.2.5rem;
+    }
+
+    .cardDescrition {
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .tecName {
+        font-size: 1rem;
+    }
+}
