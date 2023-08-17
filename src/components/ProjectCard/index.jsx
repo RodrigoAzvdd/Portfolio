@@ -20,9 +20,9 @@ export default function ProjectCard({ position, img, title, description, tec, co
                 <h3 className={styles.cardTitle}>{title}</h3>
                 <p className={styles.cardDescrition}>{description}</p>
                 <div className={styles.tecDiv}>
-                    {tec.forEach(element => {
-                        <span className={styles.tecName}>{element}</span>
-                    })}
+                    {tec.map(element => (
+                        <span key={element} className={styles.tecName}>{element}</span>
+                    ))}
                 </div>
                 <div className={styles.viewOptions}>
                     <a href={url} target='_blank' rel="noreferrer"><i className={`bi bi-eye ${styles.eyeIcon}`}></i></a>
