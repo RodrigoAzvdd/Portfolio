@@ -13,7 +13,7 @@ export default function ProjectsCards() {
             <h1 className={styles.mainTitle}>PROJETOS</h1>
             <ProjectCard
                 title={"React Stock"}
-                description={"O projeto ReactStock é uma plataforma de gerenciamento de estoque altamente interativa e eficiente, desenvolvida usando a tecnologia React. Projetado para simplificar a complexa tarefa de rastrear produtos e quantidades em estoque, o <strong>ReactStock</strong> oferece uma experiência de usuário intuitiva que permite aos usuários cadastrar, visualizar, atualizar e deletar informações de estoque com facilidade."}
+                description={"O projeto ReactStock é uma plataforma de gerenciamento de estoque altamente interativa e eficiente, desenvolvida usando a tecnologia React. Projetado para simplificar a complexa tarefa de rastrear produtos e quantidades em estoque, o ReactStock oferece uma experiência de usuário intuitiva que permite aos usuários cadastrar, visualizar, atualizar e deletar informações de estoque com facilidade."}
                 img={reactStock}
                 position={'left'}
                 code={'https://github.com/RodrigoAzvdd/React-Stock'}
@@ -58,7 +58,7 @@ export default function ProjectsCards() {
             />
             <ProjectCard
                 title={"Rick and Morty Explorer"}
-                description={"O projeto Rick and Morty Explorer é uma plataforma de exploração dos personagens do universo de &quot;Rick and Morty&quot;, desenvolvida com HTML, CSS, JavaScript e React. Combinando funcionalidade e interatividade, os entusiastas da série podem buscar seus personagens favoritos por nome ou espécie. Não importa se você está acessando pelo computador, tablet ou smartphone, a aplicação oferece uma experiência perfeitamente adaptada, garantindo uma jornada suave e imersiva enquanto os fãs exploram os detalhes e curiosidades dos personagens dessa incrível saga animada."}
+                description={"O projeto Rick and Morty Explorer é uma plataforma de exploração dos personagens do universo de Rick and Morty, desenvolvida com HTML, CSS, JavaScript e React. Combinando funcionalidade e interatividade, os entusiastas da série podem buscar seus personagens favoritos por nome ou espécie. Não importa se você está acessando pelo computador, tablet ou smartphone, a aplicação oferece uma experiência perfeitamente adaptada, garantindo uma jornada suave e imersiva enquanto os fãs exploram os detalhes e curiosidades dos personagens dessa incrível saga animada."}
                 img={rickAndMorty}
                 position={'right'}
                 code={'https://github.com/RodrigoAzvdd/Rick-and-Morty'}
