@@ -127,6 +127,17 @@
     color: #7952B3;
 }
 
+.icon11:hover {
+    color: #0070f3;
+}
+
+.icon12:hover {
+    color: #00ffea;
+}
+.icon13:hover {
+    color: #007acc;
+}
+
 @media (max-width: 1140px) {
     .nameInfo {
         font-size: 2rem;
@@ -162,6 +173,6 @@
 
     .InfoItems {
         font-size: 1rem;
-        
+
     }
 }

@@ -45,6 +45,9 @@ function About() {
                     <div data-aos="fade-down" className={styles.iconCard}>
                         <i className={`devicon-javascript-plain ${styles.icon} ${styles.icon4}`}></i>
                     </div>
+                    <div data-aos="fade-down" className={styles.iconCard}>
+                        <i className={`devicon-typescript-plain ${styles.icon} ${styles.icon13}`}></i>
+                    </div>
                     <div data-aos="fade-up" className={styles.iconCard}>
                         <i className={`devicon-mysql-plain ${styles.icon} ${styles.icon5}`}></i>
                     </div>
@@ -62,6 +65,12 @@ function About() {
                     </div>
                     <div data-aos="fade-down" className={styles.iconCard}>
                         <i className={`devicon-bootstrap-plain ${styles.icon} ${styles.icon10}`}></i>
+                    </div>
+                    <div data-aos="fade-down" className={styles.iconCard}>
+                        <i className={`devicon-nextjs-plain ${styles.icon} ${styles.icon11}`}></i>
+                    </div>
+                    <div data-aos="fade-down" className={styles.iconCard}>
+                        <i className={`devicon-tailwindcss-plain ${styles.icon} ${styles.icon12}`}></i>
                     </div>
                 </div>
             </div>

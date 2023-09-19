@@ -6,6 +6,7 @@ import restCountry from '/src/imgs/projects/restCountry.png';
 import coffeShop from '/src/imgs/projects/CoffeShop.png';
 import rickAndMorty from '/src/imgs/projects/rickandmorty.png';
 import ProjectCard from '../../../components/ProjectCard';
+import Newsletter from '/src/imgs/projects/Newsletter.png'
 
 export default function ProjectsCards() {
     return (
@@ -18,7 +19,7 @@ export default function ProjectsCards() {
                 position={'left'}
                 code={'https://github.com/RodrigoAzvdd/React-Stock'}
                 url={'https://rodrigoazvdd.github.io/React-Stock/'}
-                tec={["HTML", "CSS", "JS", "REACT"]}
+                tec={["HTML", "CSS", "Javascript", "REACT"]}
             />
             <ProjectCard
                 title={"SpaceX LandingPage"}
@@ -27,7 +28,7 @@ export default function ProjectsCards() {
                 position={'right'}
                 code={'https://github.com/RodrigoAzvdd/LandingPage_SpaceX'}
                 url={'https://rodrigoazvdd.github.io/LandingPage_SpaceX/'}
-                tec={["HTML", "SASS", "JS", "BOOTSTRAP"]}
+                tec={["HTML", "SASS", "Javascript", "BOOTSTRAP"]}
             />
             <ProjectCard
                 title={"OnebitCode LandingPage"}
@@ -45,7 +46,7 @@ export default function ProjectsCards() {
                 position={'right'}
                 code={'https://github.com/RodrigoAzvdd/RestCountries-API'}
                 url={'https://rodrigoazvdd.github.io/RestCountries-API/'}
-                tec={["HTML", "CSS", "JS", "RestCountries API"]}
+                tec={["HTML", "CSS", "Javascript", "RestCountries API"]}
             />
             <ProjectCard
                 title={"CoffeeShop Page"}
@@ -54,7 +55,7 @@ export default function ProjectsCards() {
                 position={'left'}
                 code={'https://github.com/RodrigoAzvdd/CoffeeShop-FirstPage'}
                 url={'https://rodrigoazvdd.github.io/CoffeeShop-FirstPage/'}
-                tec={["HTML", "SASS", "JS"]}
+                tec={["HTML", "SASS", "Javascript"]}
             />
             <ProjectCard
                 title={"Rick and Morty Explorer"}
@@ -63,7 +64,16 @@ export default function ProjectsCards() {
                 position={'right'}
                 code={'https://github.com/RodrigoAzvdd/Rick-and-Morty'}
                 url={'https://rodrigoazvdd.github.io/Rick-and-Morty/'}
-                tec={["HTML", "CSS", "JS", "REACT"]}
+                tec={["HTML", "CSS", "Javascript", "REACT"]}
+            />
+            <ProjectCard
+                title={"Newsletter NextJS"}
+                description={"O projeto INSIGHTS é uma aplicação web desenvolvida com tecnologias modernas, incluindo Next.js, TypeScript e Tailwind CSS. Ele oferece aos usuários a oportunidade de se manterem atualizados com as últimas notícias, permitindo o cadastro de seus endereços de e-mail para receber informações relevantes. O banco de dados MySQL utilizado para armazenar os endereços de e-mail é hospedado na plataforma Railway."}
+                img={Newsletter}
+                position={'left'}
+                code={'https://github.com/RodrigoAzvdd/Newsletter-NextJS'}
+                url={'https://newsletter-next-js.vercel.app'}
+                tec={["NextJS", "Typescript", "TailwindCSS", "MySQL"]}
             />
         </section>
     )
