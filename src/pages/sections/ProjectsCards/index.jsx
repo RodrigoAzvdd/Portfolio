@@ -22,6 +22,24 @@ export default function ProjectsCards() {
                 tec={["HTML", "CSS", "Javascript", "REACT"]}
             />
             <ProjectCard
+                title={"Newsletter NextJS"}
+                description={"O projeto INSIGHTS é uma aplicação web desenvolvida com tecnologias modernas, incluindo Next.js, TypeScript e Tailwind CSS. Ele oferece aos usuários a oportunidade de se manterem atualizados com as últimas notícias, permitindo o cadastro de seus endereços de e-mail para receber informações relevantes. O banco de dados MySQL utilizado para armazenar os endereços de e-mail é hospedado na plataforma Railway."}
+                img={Newsletter}
+                position={'left'}
+                code={'https://github.com/RodrigoAzvdd/Newsletter-NextJS'}
+                url={'https://newsletter-next-js.vercel.app'}
+                tec={["NextJS", "Typescript", "TailwindCSS", "MySQL"]}
+            />
+            <ProjectCard
+                title={"Rick and Morty Explorer"}
+                description={"O projeto Rick and Morty Explorer é uma plataforma de exploração dos personagens do universo de Rick and Morty, desenvolvida com HTML, CSS, JavaScript e React. Combinando funcionalidade e interatividade, os entusiastas da série podem buscar seus personagens favoritos por nome ou espécie. Não importa se você está acessando pelo computador, tablet ou smartphone, a aplicação oferece uma experiência perfeitamente adaptada, garantindo uma jornada suave e imersiva enquanto os fãs exploram os detalhes e curiosidades dos personagens dessa incrível saga animada."}
+                img={rickAndMorty}
+                position={'right'}
+                code={'https://github.com/RodrigoAzvdd/Rick-and-Morty'}
+                url={'https://rodrigoazvdd.github.io/Rick-and-Morty/'}
+                tec={["HTML", "CSS", "Javascript", "REACT"]}
+            />
+            <ProjectCard
                 title={"SpaceX LandingPage"}
                 description={"O projeto SpaceX LandingPage é uma reinterpretação inspirada da página de lançamentos da SpaceX, desenvolvida com maestria utilizando HTML, CSS, JavaScript e Bootstrap. Essa página proporciona uma experiência envolvente aos usuários, sendo totalmente responsiva para se adaptar perfeitamente a diferentes dispositivos, enquanto explora o fascinante universo dos lançamentos espaciais."}
                 img={spaceX}
@@ -56,24 +74,6 @@ export default function ProjectsCards() {
                 code={'https://github.com/RodrigoAzvdd/CoffeeShop-FirstPage'}
                 url={'https://rodrigoazvdd.github.io/CoffeeShop-FirstPage/'}
                 tec={["HTML", "SASS", "Javascript"]}
-            />
-            <ProjectCard
-                title={"Rick and Morty Explorer"}
-                description={"O projeto Rick and Morty Explorer é uma plataforma de exploração dos personagens do universo de Rick and Morty, desenvolvida com HTML, CSS, JavaScript e React. Combinando funcionalidade e interatividade, os entusiastas da série podem buscar seus personagens favoritos por nome ou espécie. Não importa se você está acessando pelo computador, tablet ou smartphone, a aplicação oferece uma experiência perfeitamente adaptada, garantindo uma jornada suave e imersiva enquanto os fãs exploram os detalhes e curiosidades dos personagens dessa incrível saga animada."}
-                img={rickAndMorty}
-                position={'right'}
-                code={'https://github.com/RodrigoAzvdd/Rick-and-Morty'}
-                url={'https://rodrigoazvdd.github.io/Rick-and-Morty/'}
-                tec={["HTML", "CSS", "Javascript", "REACT"]}
-            />
-            <ProjectCard
-                title={"Newsletter NextJS"}
-                description={"O projeto INSIGHTS é uma aplicação web desenvolvida com tecnologias modernas, incluindo Next.js, TypeScript e Tailwind CSS. Ele oferece aos usuários a oportunidade de se manterem atualizados com as últimas notícias, permitindo o cadastro de seus endereços de e-mail para receber informações relevantes. O banco de dados MySQL utilizado para armazenar os endereços de e-mail é hospedado na plataforma Railway."}
-                img={Newsletter}
-                position={'left'}
-                code={'https://github.com/RodrigoAzvdd/Newsletter-NextJS'}
-                url={'https://newsletter-next-js.vercel.app'}
-                tec={["NextJS", "Typescript", "TailwindCSS", "MySQL"]}
             />
         </section>
     )
