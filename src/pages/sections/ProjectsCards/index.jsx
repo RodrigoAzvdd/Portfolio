@@ -25,7 +25,7 @@ export default function ProjectsCards() {
                 title={"Newsletter NextJS"}
                 description={"O projeto INSIGHTS é uma aplicação web desenvolvida com tecnologias modernas, incluindo Next.js, TypeScript e Tailwind CSS. Ele oferece aos usuários a oportunidade de se manterem atualizados com as últimas notícias, permitindo o cadastro de seus endereços de e-mail para receber informações relevantes. O banco de dados MySQL utilizado para armazenar os endereços de e-mail é hospedado na plataforma Railway."}
                 img={Newsletter}
-                position={'left'}
+                position={'right'}
                 code={'https://github.com/RodrigoAzvdd/Newsletter-NextJS'}
                 url={'https://newsletter-next-js.vercel.app'}
                 tec={["NextJS", "Typescript", "TailwindCSS", "MySQL"]}
@@ -34,7 +34,7 @@ export default function ProjectsCards() {
                 title={"Rick and Morty Explorer"}
                 description={"O projeto Rick and Morty Explorer é uma plataforma de exploração dos personagens do universo de Rick and Morty, desenvolvida com HTML, CSS, JavaScript e React. Combinando funcionalidade e interatividade, os entusiastas da série podem buscar seus personagens favoritos por nome ou espécie. Não importa se você está acessando pelo computador, tablet ou smartphone, a aplicação oferece uma experiência perfeitamente adaptada, garantindo uma jornada suave e imersiva enquanto os fãs exploram os detalhes e curiosidades dos personagens dessa incrível saga animada."}
                 img={rickAndMorty}
-                position={'right'}
+                position={'left'}
                 code={'https://github.com/RodrigoAzvdd/Rick-and-Morty'}
                 url={'https://rodrigoazvdd.github.io/Rick-and-Morty/'}
                 tec={["HTML", "CSS", "Javascript", "REACT"]}
